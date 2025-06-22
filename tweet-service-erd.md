@@ -45,7 +45,7 @@ This diagram shows the MongoDB document structure for the Tweet Service, which h
 
     Tweets ||--o{ Tweet_Threads : "belongs to thread"
     Tweets ||--o| Scheduled_Tweets : "can be scheduled"
-    Tweets ||--o{ Tweets : "can reply to"`
+    Tweets ||--o{ Tweets : "can reply to"
 ```
 
 ## Collections Explained
