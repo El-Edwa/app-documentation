@@ -5,7 +5,7 @@
 This diagram shows the MongoDB document structure for the Tweet Service, which handles tweet creation, management, media attachments, and threading.
 
 ```mermaid
-`erDiagram
+erDiagram
     Tweets {
         ObjectId _id PK
         UUID user_id "External Reference"
